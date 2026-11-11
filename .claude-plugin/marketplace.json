@@ -1,0 +1,13 @@
+{
+  "name": "sms-recompile",
+  "description": "A Recompile pane for the Super Mario Sunshine decomp.",
+  "owner": {
+    "name": "neel152"
+  },
+  "plugins": [
+    {
+      "name": "sms-recompile",
+      "source": "./"
+    }
+  ]
+}

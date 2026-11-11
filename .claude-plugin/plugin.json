@@ -1,0 +1,31 @@
+{
+  "name": "sms-recompile",
+  "version": "0.1.0",
+  "description": "A Recompile pane for the Super Mario Sunshine decomp: rebuild it and see how much matches.",
+  "author": {
+    "name": "neel152"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "decomp_folder": {
+      "type": "string",
+      "title": "Decomp folder",
+      "description": "Full path to your clone of github.com/doldecomp/sms, already configured with configure.py.",
+      "default": ""
+    },
+    "version": {
+      "type": "string",
+      "title": "Game version",
+      "description": "The version you configured the decomp for.",
+      "default": "GMSE01",
+      "options": [
+        "GMSE01",
+        "GMSP01",
+        "GMSJ01",
+        "GMSJ01_01",
+        "GMSP01_NX"
+      ]
+    }
+  }
+}
